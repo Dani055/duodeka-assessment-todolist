@@ -1,0 +1,27 @@
+@media screen and (min-width: 600px) {
+	header {
+	min-height: 100vh;
+    border-right: 4px solid #0a7ed6;
+    border-bottom: none !important;
+	}
+}
+header{
+  height: 100%;
+  background-color: #ececec;
+  border-bottom: 4px solid #0a7ed6;
+}
+header h4{
+  border-bottom: 2px solid #9b9b9b;
+}
+p.signature{
+  position: absolute;
+  bottom: 0;
+  right: 15px;
+  margin-left: 1em;
+}
+a{
+  text-decoration: none !important;
+}
+a:hover{
+  opacity: 0.6;
+}
